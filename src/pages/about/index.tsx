@@ -26,9 +26,8 @@ const AboutPage = () => {
         <span className="pr-10">2024</span>
         <span>Completed Bachelor of Technology (IT) at SMIT</span>
       </div>
-
       <h1 className="text-2xl">On the Web</h1>
-      <div>
+      <div className="pb-5">
         <a
           href="https://www.linkedin.com/in/jayanta-adhikary/"
           target="_blank"
@@ -56,6 +55,9 @@ const AboutPage = () => {
           GitHub
         </a>
       </div>
+      <span className="italic text-xs">
+        Btw, this site is built with NextJS and TailwindCSS ❤️
+      </span>
     </div>
   );
 };
