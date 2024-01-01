@@ -5,12 +5,11 @@ const AboutPage = () => {
     <div className="md:px-32 sm:px-14 lg:px-52 xs:px-12 xl:px-64 animate__animated animate__slideInLeft">
       <h1 className="text-2xl">About Me</h1>
       <p className={`text-justify pb-5`}>
-        I am a software engineer from with a passion for web and app development
-        and a love for building things. I am proficient in TypeScript,
-        JavaScript, Swift, Python, Golang and SQL, employing frameworks like
-        React, React Native, and NextJS. I am also experienced in version
-        control with Git and GitHub, and familiar with tools like Postman, npm,
-        and vim.
+        I am a software engineer with a passion for web and app development and
+        a love for building things. I am proficient in TypeScript, JavaScript,
+        Swift, Python, Golang and SQL, employing frameworks like React, React
+        Native, and NextJS. I am also experienced in version control with Git
+        and GitHub, and familiar with tools like Postman, npm, and vim.
       </p>
 
       <h1 className={"text-2xl"}>Bio</h1>
