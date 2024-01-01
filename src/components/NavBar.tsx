@@ -1,5 +1,7 @@
 import localFont from "@next/font/local";
 import Link from "next/link";
+import { useState } from "react";
+import { Bars4Icon } from "@heroicons/react/24/solid";
 
 const halimun = localFont({
   src: "../../public/fonts/Halimun.ttf",
@@ -7,14 +9,20 @@ const halimun = localFont({
 });
 
 export const NavBar = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
+  function toggleMenu() {
+    setShowMenu(!showMenu);
+  }
+
   return (
-    <nav className={`flex items-center justify-between w-full`}>
+    <nav className={`flex items-center flex-wrap justify-between w-full`}>
       <div className={`flex items-center justify-center`}>
         <Link href="/">
           <h1 className={`text-xl ${halimun.className}`}>Jay Adky</h1>
         </Link>
       </div>
-      <div className={`flex items-center justify-center`}>
+      <div className={`hidden md:flex items-center justify-center`}>
         <Link href={`/about`} className={" text-blue-500 ml-5"}>
           About
         </Link>
@@ -30,6 +38,29 @@ export const NavBar = () => {
           Github
         </Link>
       </div>
+      <button className="md:hidden" onClick={toggleMenu}>
+        <Bars4Icon
+          className={`h-6 w-6 ml-5 text-gray-300 hover:text-gray-400`}
+        />
+      </button>
+      {showMenu && (
+        <div className="flex basis-full flex-col  items-end">
+          <Link href={`/about`} className={" text-blue-500 my-2"}>
+            About
+          </Link>
+          <Link href={`/blog`} className={" text-blue-500 mb-2"}>
+            Posts
+          </Link>
+          <Link
+            href={`https://github.com/jayantaadhikary`}
+            target="_blank"
+            rel="noreferrer"
+            className={"  text-gray-300"}
+          >
+            Github
+          </Link>
+        </div>
+      )}
     </nav>
   );
 };
