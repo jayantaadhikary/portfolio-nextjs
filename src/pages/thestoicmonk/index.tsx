@@ -21,12 +21,12 @@ function Page() {
           </p>
           <div className="mt-8">
             <a
-              href="https://forms.gle/4JPwXVRRb8ABqBaY7"
+              href="https://play.google.com/store/apps/details?id=com.jayadky.stoicmonk"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full inline-block"
             >
-              Join Testing on Play Store
+              Download Now on Play Store
             </a>
           </div>
         </div>
