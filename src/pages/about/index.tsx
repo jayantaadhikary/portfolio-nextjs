@@ -21,9 +21,13 @@ const AboutPage = () => {
         <span className="pr-10">2020</span>
         <span>Completed High School.</span>
       </div>
-      <div className="pb-5">
+      <div>
         <span className="pr-10">2024</span>
         <span>Completed Bachelor of Technology (IT) at SMIT</span>
+      </div>
+      <div className="pb-5">
+        <span className="pr-10">2024</span>
+        <span>Working as a Senior Analyst at EY</span>
       </div>
       <h1 className="text-2xl">On the Web</h1>
       <div className="pb-5">
