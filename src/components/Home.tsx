@@ -15,7 +15,7 @@ const HomePage = () => {
         </p>
         <div>
           <a
-            href="https://drive.google.com/file/d/15zDXzN-G06i5CqdrhSlTmy6RfwYCNA97/view?usp=sharing"
+            href="https://drive.google.com/file/d/17K2TtNCJy1WdGE8wyz1wzrPNvgYa9ust/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className={`bg-sky-950 text-white px-4 py-2 rounded-md mt-4 flex items-center justify-between hover:bg-sky-700`}
