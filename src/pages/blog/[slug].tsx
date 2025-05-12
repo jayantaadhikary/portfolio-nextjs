@@ -10,7 +10,7 @@ const PostPage = (props: any) => {
       <div>
         <h1 className="text-3xl font-bold pb-5">{post.data.title}</h1>
         <div className="text-justify">
-          <article className="prose lg:prose-xl prose-invert">
+          <article className="prose lg:prose-xl dark:prose-invert">
             <Markdown>{post.content}</Markdown>
           </article>
         </div>

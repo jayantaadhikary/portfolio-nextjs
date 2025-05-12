@@ -11,7 +11,7 @@ const HomePage = () => {
           Jayanta Adhikary
         </h1>
         <p className={`text-center`}>
-          Software Engineer | Web/App Developer | Tech Enthusiast
+          Software Engineer | App/Web Developer | Tech Enthusiast
         </p>
         <div>
           <a
