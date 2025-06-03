@@ -23,7 +23,7 @@ const AboutPage = () => {
       </div>
       <div>
         <span className="pr-10">2024</span>
-        <span>Completed Bachelor of Technology (IT) at SMIT</span>
+        <span>Completed Bachelor of Technology (IT) at SMIT (GPA: 9.41/10 )</span>
       </div>
       <div className="pb-5">
         <span className="pr-10">2024</span>

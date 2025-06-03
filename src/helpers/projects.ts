@@ -11,6 +11,14 @@ export const getProjects = (): Project[] => {
       demoUrl: "https://thestoicmonk.xyz",
     },
     {
+      id: "moniqa",
+      title: "Moniqa: Budgeting App",
+      description:
+        "Track your money without friction. Simple, private, and powerful expense tracking.",
+      technologies: ["React Native", "TypeScript", "MMKV"],
+      demoUrl: "https://jayantaadhikary.xyz/moniqa",
+    },
+    {
       id: "gistal",
       title: "Gistal: AI Summarizer",
       description:
@@ -18,14 +26,13 @@ export const getProjects = (): Project[] => {
       technologies: ["Next.js", "TypeScript", "Ollama"],
       githubUrl: "https://github.com/jayantaadhikary/gistal",
     },
-    // {
-    //   id: "ollama-api",
-    //   title: "Ollama API Integration",
-    //   description:
-    //     "An API integration with Ollama for local AI model access and inferencing.",
-    //   technologies: ["Python", "FastAPI", "Ollama", "AI"],
-    //   imageUrl: "/images/projects/ollama.png",
-    //   githubUrl: "https://github.com/jayantaadhikary/ollama-integration",
-    // },
+    {
+      id: "inbox-simplifier",
+      title: "Inbox Simplifier",
+      description:
+        "Email Summarization tool: Simplify your inbox with AI-powered summaries.",
+      technologies: ["Next.js", "TypeScript", "OpenAI API"],
+      githubUrl: "https://github.com/jayantaadhikary/inbox-simplifier",
+    },
   ];
 };
