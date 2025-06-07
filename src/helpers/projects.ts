@@ -16,7 +16,7 @@ export const getProjects = (): Project[] => {
       description:
         "Track your money without friction. Simple, private, and powerful expense tracking.",
       technologies: ["React Native", "TypeScript", "MMKV"],
-      demoUrl: "https://jayantaadhikary.xyz/moniqa",
+      demoUrl: "/moniqa",
     },
     {
       id: "gistal",

@@ -1,11 +1,21 @@
 import React from "react";
 import "animate.css";
+import Image from "next/image";
 
 function MoniqaPage() {
   return (
     <div className="container mx-auto px-4 py-8 animate__animated animate__slideInLeft">
       {/* Hero Section */}
       <div className="text-center mb-12">
+        <div className="flex justify-center mb-4">
+          <Image
+            src="/images/moniqa/icon-simple.png"
+            alt="Moniqa App Icon"
+            width={100} // Adjust width as needed
+            height={100} // Adjust height as needed
+            className="rounded-lg" // Optional: if you want rounded corners for the icon
+          />
+        </div>
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Moniqa</h1>
         <p className="text-xl md:text-2xl text-gray-600 mb-2">
           Personal Finance Tracker
@@ -72,7 +82,7 @@ function MoniqaPage() {
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="text-xl font-bold mb-3">
               🎨 Personalized Experience
             </h3>
@@ -81,7 +91,7 @@ function MoniqaPage() {
               <li>Multiple custom themes</li>
               <li>Clean, modern interface</li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -132,17 +142,20 @@ function MoniqaPage() {
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="text-lg font-bold">Data Export & Backup</h3>
             <ul className="list-disc list-inside ml-4 mt-2">
               <li>Export to CSV format</li>
               <li>Complete data backup and restore</li>
             </ul>
-          </div>
+          </div> */}
 
           <div>
-            <h3 className="text-lg font-bold">Customization</h3>
+            <h3 className="text-lg font-bold">
+              Data Export & App Customization
+            </h3>
             <ul className="list-disc list-inside ml-4 mt-2">
+              <li>Export Data to CSV format</li>
               <li>Multiple app themes and color schemes</li>
               <li>Advanced appearance options</li>
             </ul>
@@ -161,6 +174,30 @@ function MoniqaPage() {
           <li>Budget-conscious individuals optimizing spending</li>
         </ul>
       </div>
+
+      {/* Quick Start Section
+      <div className="mb-12">
+        <h2 className="text-2xl font-bold mb-4">⚡ Quick Start</h2>
+        <ol className="list-decimal list-inside space-y-2 ml-4">
+          <li>
+            <strong>Install the App:</strong> Download Moniqa from the App Store
+            or Google Play.
+          </li>
+          <li>
+            <strong>Personalise:</strong> Customize your currency, set your
+            budget, and choose categories.(you can always change them later)
+          </li>
+          <li>
+            <strong>Start Tracking:</strong> Add your first expense or income
+            source in seconds
+          </li>
+          <li>
+            <strong>Explore Insights:</strong> Check the dashboard for a quick
+            overview of your financial health.
+          </li>
+        </ol>
+      </div> */}
+
       {/* What Makes Moniqa Different */}
       <div className="mb-12">
         <h2 className="text-2xl font-bold mb-4">
