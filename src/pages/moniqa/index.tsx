@@ -27,7 +27,7 @@ function MoniqaPage() {
 
         <div className="mt-8">
           <a
-            href="https://play.google.com/store/apps/details?id=com.jayadky.stoicmonk"
+            href="https://play.google.com/store/apps/details?id=com.jayadky.moniqa"
             target="_blank"
             className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-full text-lg inline-block transition-colors duration-200"
           >
@@ -234,7 +234,7 @@ function MoniqaPage() {
           decisions.
         </p>
         <a
-          href="https://play.google.com/store/apps/details?id=com.jayadky.stoicmonk"
+          href="https://play.google.com/store/apps/details?id=com.jayadky.moniqa"
           target="_blank"
           className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-full text-lg inline-block transition-colors duration-200"
         >
